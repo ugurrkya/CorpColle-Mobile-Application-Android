@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wall1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ReachUsActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/reach_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="190dp"
+        android:textColor="#fff"
+        android:text="If you want to benefit from business opportunities,
+        you can reach us from following addresses."/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/mail"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="steps.uk14@gmail.com"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/phone"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0555 085 20 28"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/address"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Saray Mah. JuA İşhanı No:6"/>
+
+</LinearLayout>

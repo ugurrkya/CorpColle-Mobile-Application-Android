@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view2">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_allbusinesses"
+            android:icon="@drawable/ic_business"
+            android:title="Businesses"></item>
+
+        <item
+            android:id="@+id/nav_myorders"
+            android:icon="@drawable/ic_chart"
+            android:title="My Orders"></item>
+        <item
+            android:id="@+id/nav_mypurchases"
+            android:icon="@drawable/ic_myrequests"
+            android:title="My Purchases"></item>
+
+
+    </group>
+</menu>

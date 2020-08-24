@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wall1"
+    tools:context=".UserProfileActivity">
+
+
+    <LinearLayout
+        android:id="@+id/userLayoutOne"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userProfileImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/add_btn"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userProfileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="10dp"
+            android:hint="nickname"
+            app:backgroundTint="#eff4f2"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:padding="15dp"
+            android:textAlignment="center"
+            tools:layout_width="match_parent"/>
+
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/userIdentity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:maxLines="2"
+        app:backgroundTint="#eff4f2"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textAlignment="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Name Surname"
+        android:padding="15dp"
+        tools:layout_width="match_parent"/>
+   <EditText
+    android:id="@+id/userAddress"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textMultiLine"
+       android:maxLines="2"
+       android:textAlignment="center"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="25dp"
+    android:layout_marginBottom="0dp"
+       app:backgroundTint="#eff4f2"
+       android:textColor="#fff"
+       android:textColorHint="#fff"
+    android:hint="Address"
+    android:padding="15dp"
+    tools:layout_width="match_parent"/>
+    <EditText
+        android:id="@+id/userPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center"
+        android:hint="Phone Number"
+        app:backgroundTint="#eff4f2"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:padding="15dp"
+        android:inputType="number|phone"
+        tools:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/saveProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center"
+        android:padding="3dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="SAVE PROFILE"
+            android:textSize="24sp"
+            android:textColor="#d5f5c5"
+            android:layout_gravity="bottom"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

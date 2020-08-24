@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BusinessLoginActivity"
+    android:background="@drawable/wall1">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"
+
+        />
+
+    <LinearLayout
+        android:layout_marginTop="145dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+
+        <EditText
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/businessemail"
+            app:backgroundTint="#eff4f2"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Business Email"
+            android:textAlignment="center"/>
+
+        <EditText
+            app:backgroundTint="#eff4f2"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/businesspassword"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="Business Password"
+            android:textAlignment="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:id="@+id/business_login"
+            android:background="#d5f5c5"
+            android:textColor="#000"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REACH US"
+            android:id="@+id/reach"
+            android:textColor="#fff"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

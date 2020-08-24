@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="0dp"
+    tools:context=".ClientProductDetailsActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/wall3">
+        <TextView
+            android:id="@+id/usAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/timeof"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/userPh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+      <ImageView
+          android:id="@+id/clientimage"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:visibility="gone"/>
+
+     <TextView
+         android:id="@+id/clientname"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:visibility="gone"/>
+    <TextView
+        android:id="@+id/businessid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+        <TextView
+            android:id="@+id/dtbusinessname"
+            android:text="business name will be here now"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/forproductname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product name is here"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="30dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="#d5f5c5"/>
+
+        <TextView
+            android:id="@+id/priceofproduct"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Product Price"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+        <ImageView
+            android:id="@+id/dtproductimage"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/fordesc"
+            android:textColor="#fff"
+            android:text="Description will be here."
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop= "340dp"
+            android:layout_marginLeft="0dp"
+            android:scrollbars="vertical"
+            android:textStyle="normal"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/giveorder_button"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:text="GIVE ORDER"
+        android:background="#d5f5c5"
+        android:layout_gravity="bottom|end"
+        android:layout_marginLeft="230dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/cancelorder_button"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:text="CANCEL ORDER"
+        android:background="#d5f5c5"/>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

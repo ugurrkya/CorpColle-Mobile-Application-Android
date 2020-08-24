@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddProductActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:id="@+id/emailofbusiness"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BusinessName"
+        android:id="@+id/nameofbusiness"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="120dp"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/businessabout"
+        android:layout_gravity="end"
+        android:text="..."
+        android:visibility="gone"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/businessimage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginRight="105dp"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/addproduct_button"
+        android:layout_width="120dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="-115dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:background="#d5f5c5"
+        android:text="Add Product" />
+
+
+    <ImageView
+        android:id="@+id/productimage"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/chooser"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Choose An Image"
+        android:background="#d5f5c5"
+        android:layout_marginBottom="10dp"/>
+    <EditText
+        android:inputType="numberDecimal"
+        app:met_floatingLabel="normal"
+        android:textAlignment="center"
+        app:backgroundTint="#eff4f2"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:id="@+id/productprice" />
+    <EditText
+        android:inputType="text"
+        app:met_floatingLabel="normal"
+        app:backgroundTint="#eff4f2"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Product Name"
+        android:id="@+id/productname" />
+
+
+    <EditText
+        android:scrollbars="vertical"
+        android:id="@+id/productdescription"
+        android:inputType="textMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Product Description"
+        android:maxLines="4"
+        android:textAlignment="center"
+        app:backgroundTint="#eff4f2"
+        android:textColor="#fff"
+        android:textColorHint="#fff"/>
+
+
+
+
+</LinearLayout>
